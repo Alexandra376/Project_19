@@ -1,0 +1,30 @@
+body {
+    background-color: #cdd3d9;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.content ul {
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content li {
+    font-size: 20px;
+}
